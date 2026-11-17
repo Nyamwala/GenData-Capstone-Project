@@ -1,7 +1,7 @@
 1. What is the problem you are solving?
-The Problem: Importing used vehicles into East Africa is a financial guessing game. Buyers, dealerships, and logistics planners face a black box of unpredictable costs—where FOB vehicle prices, volatile ocean freight rates, mandatory inspection fees, and marine insurance fluctuate independently.
+The Problem: Importing used vehicles into East Africa is a financial guessing game. Buyers, dealerships, and logistics planners face unpredictable costs—where FOB vehicle prices, volatile ocean freight rates, mandatory inspection fees, and marine insurance fluctuate independently.
 
-The Impact: Importers regularly suffer compressed profit margins or unexpected capital shortfalls because they cannot accurately forecast total landed costs (CIF) at Mombasa Port before committing funds.
+The Impact: Importers regularly suffer compressed profit margins or unexpected capital shortfalls because they cannot accurately forecast total landed costs (CIF) at Ports before committing funds.
 
 2. What tools did you use?
 Python (requests, BeautifulSoup): Built a modular web-scraping pipeline to extract real-time vehicle listings, technical specifications, and pricing metrics directly from SBT Japan.
@@ -13,7 +13,10 @@ Tableau: Developed interactive visual dashboards to analyze vehicle pricing, mil
 VS Code & Git Bash: Used as your core development environment for writing code, running virtual environments, managing file paths, and handling version control.
 
 3. What insights did you or do you want to discover? / What Solutions do you want to offer?
-Importing entry-level economy cars into East Africa comes with a hidden financial penalty. Because ocean freight and inspection fees are fixed, they inflate the landed cost of budget vehicles (like the Toyota Passo or Mazda Demio) disproportionately higher than high-end SUVs. This heavily skews true affordability for everyday buyers who assume shipping costs scale evenly with car prices.
+- Which vehicle body types  dominate SBT Japan import volume into East Africa?
+- Do vehicles with higher engine capacity have inflated shipping costs?
+- How does transmission type affect average total import costs across different vehicle models?
+- Which East African country represent the largest export markets for SBT Japan vehicles?
 
 The Solutions I Offer
 Interactive Tableau Dashboards: Provided visual decision tools that allow car importers and dealerships to preview total FOB, shipping, and port expenses before committing capital.
